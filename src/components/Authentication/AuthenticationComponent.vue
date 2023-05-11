@@ -1,0 +1,24 @@
+<template>
+    <v-form>
+      <v-container>
+        <v-row>
+            <v-text-field
+              label="Username"
+              prepend-icon="mdi-vuetify"
+              variant="solo-filled"
+            ></v-text-field>
+        </v-row>
+        <v-row>
+            <v-text-field
+              label="Password"
+              prepend-icon="mdi-vuetify"
+              variant="solo-filled"
+              type="password"
+            ></v-text-field>
+        </v-row>
+        <v-row>
+          <v-btn type="submit" block class="mt-2">Login</v-btn>
+        </v-row>
+      </v-container>
+    </v-form>
+</template>
